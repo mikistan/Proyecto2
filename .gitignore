@@ -1,0 +1,6 @@
+# Ignorar el archivo pesado específico
+datasets/household_power_consumption.txt
+
+# Por seguridad, ignorar todos los archivos de texto y csv grandes en datasets
+datasets/*.txt
+datasets/*.csv
