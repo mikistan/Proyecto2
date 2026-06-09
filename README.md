@@ -41,7 +41,7 @@ Asegúrate de tener instalado Python (versión 3.12 o superior) y un gestor de p
 ### 2. Clonar el repositorio
 Clona este proyecto en tu máquina local y accede a la carpeta raíz:
 
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/mikistan/Proyecto2.git
 cd Proyecto2
 
 ### 3. Instalar las librerías necesarias
