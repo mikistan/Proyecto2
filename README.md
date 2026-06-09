@@ -67,4 +67,4 @@ Flujo de ejecución sugerido:
 *   **Miguel Méndez:** Paupérrimo estudiante del Gran Teacher Jesus.
 
 ## Licencia:
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto se distribuye bajo la licencia Miguelito.
