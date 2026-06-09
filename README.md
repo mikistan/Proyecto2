@@ -32,10 +32,35 @@ Este proyecto se enfoca en realizar un Análisis Exploratorio de Datos (EDA) sob
 4. Identificar los factores más influyentes en el consumo de energía.
 
 ## Instrucciones para ejecutar:
-1. **Montar Google Drive:** Ejecutar la celda `UhbQy4IiIyRy` para montar Google Drive y acceder a los datasets.
-2.  **Cargar Datos:** Ejecutar las celdas de carga para `df1`, `df2`, `df3`, y `df4` (`tcKUNoR1STRM`, `5ZMX2obWV0Mm`, `Ns8zhgcChXDm`, `rlqd7_VUm1CS` respectivamente).
-3.  **Ejecutar EDA:** Seguir las celdas de EDA para cada dataset (`df1` a `df4`), incluyendo análisis iniciales, histogramas, boxplots, y matrices de correlación.
-4.  **Preprocesamiento y Definición de Variables (df4):** Ejecutar las celdas posteriores a la selección del problema para el dataset de energía (`ZkAiEwYKasJf` en adelante) para la creación de características y la definición de X e y.
+
+Sigue estos pasos para configurar el entorno y ejecutar los análisis del proyecto:
+
+### 1. Prerrequisitos
+Asegúrate de tener instalado Python (versión 3.12 o superior) y un gestor de paquetes como `pip`.
+
+### 2. Clonar el repositorio
+Clona este proyecto en tu máquina local y accede a la carpeta raíz:
+
+git clone <URL_DE_TU_REPOSITORIO>
+cd Proyecto2
+
+### 3. Instalar las librerías necesarias
+El script de funciones en la carpeta /utilidades y los notebooks de análisis dependen de varias librerías de ciencia de datos. Instálalas ejecutando el siguiente comando en tu terminal:
+
+pip install numpy pandas matplotlib seaborn jupyterlab
+
+### 4. Ejecución del proyecto
+Nota sobre las funciones: Los notebooks (.ipynb) importan funciones analíticas centralizadas desde la carpeta /utilidades. Asegúrese de iniciar Jupyter desde la raíz del proyecto para evitar errores con las rutas relativas.
+
+Para abrir y explorar los cuadernos de trabajo, inicia Jupyter Lab o ábralo desde visual studio code:
+
+jupyter lab
+
+Flujo de ejecución sugerido:
+
+* Fase de Exploración (/EDA): Ejecuta los notebooks individuales (EDA_dataset1.ipynb, etc.) para comprender el comportamiento y la limpieza de cada fuente de datos.
+
+* Fase Final (/selected_dataset): Revisa el dataset definitivo en selected_dataset.csv y ejecuta EDA_selected_dataset.ipynb para ver las conclusiones y resultados finales del proyecto.
 
 ## Autores:
 *   **Miguel Méndez:** Paupérrimo estudiante del Gran Teacher Jesus.
